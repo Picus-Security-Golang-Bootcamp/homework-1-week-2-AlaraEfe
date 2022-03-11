@@ -1,16 +1,26 @@
-## Homework | Week 2
+## Homework 1 | Week 2
 
-Elimizde bir kitap listesi var. Bu uygulamanın 2 görevi var.
-1. Uygulama içerisindeki tüm kitapları çıktı olarak göstermek.
-2. Girdi olarak verilen kitap ismini varsa ekrana bastırmak yok ise kitabın mevcut olmadığına dair çıktı yazdırmak.
+This program contains a list of books.
 
-### list command
-```
+This program has two tasks.
+
+* To show whole list of the books in the program as an output.
+* If the list contains the name of the book received as input, the program gives the name of that book as an output. 
+
+The 'list' or 'search' commands should be used to implement these two tasks.
+
+### 'list' command
+
+``` 
 go run main.go list
-```
-Bu komut ile uygulama içerisindeki tüm kitapları çıktı olarak görmek istiyoruz.
+``` 
+* The 'list' command should be used to access whole list of the books in the program as an output.
 
-### search command 
-```
-go run main.go search <bookName>
-go run main.go search Lord of the Ring: The Return of 
+### 'search' command
+
+``` 
+go run main.go search <bookName> 
+``` 
+* The 'search' command should be used to gives the name of that book as output if the list contains the name of the that book
+
+Note: The program returns illustrative messages when the commands are not entered accurately. User could follow that messages to use that program. 
